@@ -2,7 +2,7 @@ Summary:        The Ogg bitstream file format library
 Name:           libogg
 Epoch:          2
 Version:        1.3.0
-Release:        5%{?dist}
+Release:        7%{?dist}
 Group:          System Environment/Libraries
 License:        BSD
 URL:            http://www.xiph.org/
@@ -88,6 +88,12 @@ mv __installed_docs/ogg __installed_docs/libogg
 %doc __installed_docs/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2:1.3.0-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2:1.3.0-6
+- Mass rebuild 2013-12-27
+
 * Tue Apr 09 2013 Jaromir Capik <jcapik@redhat.com> - 2:1.3.0-5
 - fixing multilib conflict (#831414)
 
